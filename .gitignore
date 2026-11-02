@@ -1,0 +1,48 @@
+# Power BI local cache and machine-specific settings.
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/cache.abf.*
+**/.pbi/desktopLocalSettings.json
+**/.pbi/lock
+**/.pbi/*.lock
+**/.pbi/temp/
+**/.pbi/tmp/
+
+# Keep shared .pbi source (for example editorSettings.json and
+# unappliedChanges.json) and all PBIP/PBIR/TMDL definitions trackable.
+
+# Temporary files and editor backups.
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local configuration and credentials (never store secrets in project source).
+.env
+.env.*
+!.env.example
+!.env.template
+*.local
+*.local.json
+*.user
+*.suo
+
+# VS Code user state; shared workspace configuration remains trackable.
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# Operating system metadata.
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
